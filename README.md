@@ -1,2 +1,2 @@
-# TimeToChange.React
+# TimeToChange
 TimeToChange Frontend in React
