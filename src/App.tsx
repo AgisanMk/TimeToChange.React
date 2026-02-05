@@ -25,7 +25,7 @@ function App() {
           style={{ backgroundColor: "#f8f9fa" }}
           variant="light"
         >
-          <p>Copyright © 2026</p>
+          <p>© 2026 Agnieszka Makowej | All Rights Reserved.</p>
         </Navbar>
       </footer>
     </Router>

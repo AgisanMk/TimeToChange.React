@@ -106,7 +106,7 @@ export const Summary = ({
   return (
     <Card text="light" className="body-page shadow-sm custom-green-card py4">
       <Card.Header as="h3" className="text-center mb-2">
-        SUMMARY
+        Summary
       </Card.Header>
       <Card.Subtitle className="text-center">
         Your monthly finances:

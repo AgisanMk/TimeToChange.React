@@ -52,7 +52,7 @@ const Incomes = ({ resetSignal, incomes, dispatch }: IncomesProps) => {
     <Container className="mb-4 mt-4">
       <Card border="light" text="light" className="shadow-sm custom-blue-card">
         <Card.Header as="h3" className="text-center mb-2">
-          INCOMES
+          Incomes
         </Card.Header>
         <Card.Subtitle className="text-center">
           Enter your monthly incomes:

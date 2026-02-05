@@ -48,7 +48,7 @@ const Goals = ({ resetSignal, goals, dispatch }: GoalsProps) => {
     <Container className="mb-4 mt-4">
       <Card className="custom-gold-card shadow-sm">
         <Card.Header as="h3" className="text-center mb-2">
-          GOALS
+          Goals
         </Card.Header>
         <Card.Subtitle className="text-center mb-3">
           Enter goals to be achieved in a certain number of years:

@@ -56,7 +56,7 @@ export const Expenses = ({
     <Container className="mb-4 mt-4">
       <Card className="custom-blue-card shadow-sm">
         <Card.Header as="h3" className="text-center mb-2">
-          EXPENSES
+          Expenses
         </Card.Header>
         <Card.Subtitle className="text-center">
           Enter your monthly expenses:

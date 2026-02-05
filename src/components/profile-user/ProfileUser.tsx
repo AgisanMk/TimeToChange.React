@@ -15,7 +15,7 @@ const ProfileUser = () => {
     <Container className="profile-user py-3">
       <Card text="light" className="shadow-sm custom-green-card">
         <Card.Header as="h5" className="text-center mb-2">
-          PROFILE USER
+          Profile User
         </Card.Header>
         <Card.Subtitle className="text-center mb-3">
           Please set your settings:
@@ -46,14 +46,14 @@ const ProfileUser = () => {
               </Col>
             </Form.Group>
 
-            {/* Calculation Number */}
+            {/* Calculation No. */}
             <Form.Group
               as={Row}
-              controlId="CalculationNumber"
+              controlId="CalculationNo"
               className="align-items-center mb-2"
             >
               <Form.Label column xs={6}>
-                Calculation nr:
+                Calculation no.:
               </Form.Label>
               <Col xs={6}>
                 <Form.Select

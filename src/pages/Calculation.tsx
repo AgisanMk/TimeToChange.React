@@ -75,14 +75,13 @@ const InnerCalculation = () => {
   return (
     <Container fluid className="body-page mt-4 mb-4">
       <div className="text-center">
-        <h1>Welcome to Time to Change!</h1>
+        <h1>Time to Change</h1>
         <img src={logo} alt="logo" className="logo mb-3" />
         <h3>Achieve your dream goals!</h3>
         <p>
           Maybe it's time to change your current financial plan.
           <br />
-          With this digital spreadsheet you will find out how far you are from
-          your desired goal.
+          With this digital spreadsheet, you’ll see how close you are to reaching your goal.
         </p>
       </div>
 
@@ -106,7 +105,7 @@ const InnerCalculation = () => {
                     expensesDispatch({ type: "LOAD_DEFAULTS" });
                   }}
                 >
-                  Load sample income & expense categories
+                  Use default categories
                 </Button>
                 <Button
                   className="custom-green-button"
