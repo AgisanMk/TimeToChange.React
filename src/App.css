@@ -1,0 +1,342 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+@media (min-width: 768px) {
+  .profile-user .card {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-user .form-label,
+  .profile-user .form-control,
+  .profile-user .form-select {
+    margin-left: 0 !important;
+  }
+}
+
+.navbar{
+  background-color: #006699;
+}
+.nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+.body-page{
+  max-width: 1300px;
+}
+
+.logo {
+  height: 200px;
+  padding: 1px;
+  margin: 10px;
+}
+
+.list-group {
+  max-width: 300px;
+}
+
+/* Profile User */
+
+.profile-user {
+  max-width: 380px;
+  margin-top: 10px;
+}
+
+
+input[type="text"] {
+  text-align: left;
+}
+
+input[type="number"]{
+  text-align: right;
+}
+
+/* Goals */
+
+.custom-gold-card {
+  background-color: #e5a948;
+  color: #fff;
+  border-color: #e5a948;
+}
+
+.custom-gold-card .card-header,
+.custom-gold-card .card-footer {
+  background-color: #d99836;
+  color: #fff;
+  border-bottom: 1px solid #c2892f;
+  border-top: 1px solid #c2892f;
+  box-shadow: inset 0 -0.5px 0 rgba(0, 0, 0, 0.15);
+  font-weight: normal !important;
+}
+
+.custom-gold-card .card-subtitle {
+  background-color: #e5a948 !important;
+  color: #fff !important;
+  border-color: #e5a948 !important;
+}
+
+.custom-gold-card-table {
+  border: 1px solid #e5a948 !important;
+}
+
+.custom-gold-card-table thead tr th {
+  font-weight: normal !important;
+  background-color: #e5a948 !important;
+  color: #fff !important;
+  border: 1px solid #e5a948 !important;
+}
+
+.custom-gold-card-table tbody tr td {
+  border: 1px solid #e5a948 !important;
+}
+.custom-gold-button {
+  background-color: #e5a948 !important;
+  border-color: #fff !important;
+  color: #fff !important;
+  transition: background-color 0.3s ease;
+}
+
+.custom-gold-button:hover,
+.custom-gold-button:focus {
+  background-color: #d99836 !important;
+  border-color: #d99836 !important;
+  color: #fff !important;
+}
+
+/* Incomes * Expenses */
+
+.custom-blue-card {
+  background-color: #6fa3c1;
+  color: #fff;
+  border-color: #6fa3c1;
+}
+
+.custom-blue-card .card-header,
+.custom-blue-card .card-footer {
+  background-color: #5a8bb0;
+  border-bottom: 1px solid #517a9b;
+  border-top: 1px solid #517a9b;
+  box-shadow: inset 0 -0.5px 0 rgba(0, 0, 0, 0.15);
+  font-weight: normal !important;
+}
+
+.custom-blue-card-table {
+  background-color: #6fa3c1 !important;
+  border-color: #6fa3c1 !important;
+}
+
+.custom-blue-card-table th,
+.custom-blue-card-table td {
+  font-weight: normal !important;
+  border: 1px solid #6fa3c1 !important;
+}
+
+.custom-blue-card-table thead tr th {
+  background-color: #6fa3c1 !important;
+}
+
+.custom-blue-card-table tbody tr td {
+  border: 1px solid #517a9b !important;
+}
+
+.custom-blue-button {
+  background-color: #6fa3c1 !important;
+  border-color: #fff !important;
+  color: #fff !important;
+  transition: background-color 0.3s ease;
+}
+
+.custom-blue-button:hover,
+.custom-blue-button:focus {
+  background-color: #5a8bb0 !important;
+  border-color: #5a8bb0 !important;
+  color: #fff !important;
+}
+
+/* Summary * Profile User */
+
+.custom-green-card {
+  background-color: #1fa3b5;
+  color: #fff;
+  border-color: #1fa3b5;
+}
+
+.custom-green-card .card-header,
+.custom-green-card .card-footer {
+  background-color: #138496;
+  border-bottom: 1px solid #517a9b;
+  border-top: 1px solid #517a9b;
+  box-shadow: inset 0 -0.5px 0 rgba(0, 0, 0, 0.15);
+  font-weight: normal !important;
+  color: #fff;
+}
+
+.custom-green-card table {
+  background-color: #1fa3b5;
+  border-color: #138496;
+}
+
+.custom-green-card thead th {
+  background-color: #138496;
+  color: #fff;
+  font-weight: normal;
+}
+
+.custom-green-button {
+  background-color: #138496 !important;
+  border-color: #138496 !important;
+  color: #fff !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-green-button:hover,
+.custom-green-button:focus {
+  background-color: #117886 !important;
+  border-color: #117886 !important;
+  color: #fff !important;
+}
+
+.sum-section {
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .sum-section .form-control {
+    text-align: right;
+  }
+  .sum-section .form-label  {
+    text-align: right;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+  }
+}
+
+.sum-section input[type="text"] {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+.sum-section form-label col{
+  white-space: nowrap;
+  text-align: right;
+}
+
+.result-section {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+
+}
+
+.result-section h2 {
+  color: #000000;
+}
+
+.financial-level-too-low{
+  color: #c2185b;
+}
+.financial-level-optimal{
+  color: #76FF03;
+}
+.financial-level-excellent{
+  color: #FFFF33;
+}
+
+.result-section p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* About */
+
+.heading-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.heading-grid h1 {
+  justify-self: center;
+  margin: 0;
+  text-align: center;
+  word-break: break-word;
+}
+
+.language-toggle {
+  justify-self: end;
+}
+
+.language-toggle-mirror {
+  justify-self: start;
+}
+
+.intro-section {
+  overflow: hidden; /* includes float */
+}
+
+.profile-photo {
+  float: left;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 1rem 0 0;
+  display: block;
+  border-radius: 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* on narrow screens, it turns into a column */
+}
+
+.title-wrapper {
+  flex: 1 1 0;
+  min-width: 0; /* allows text to break instead of expanding the container */
+  text-align: center;
+}
+
+.language-toggle-flex {
+  flex: 0 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .heading-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .language-toggle,
+  .language-toggle-mirror {
+    justify-self: center;
+  }
+  .language-toggle-mirror {
+    display: none;
+  }
+  .heading-grid h1 {
+    margin-bottom: 0.5rem;
+  }
+}
