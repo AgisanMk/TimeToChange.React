@@ -52,7 +52,7 @@ export async function sendCalculationToApi(
 ): Promise<CalculationResult | null> {
   try {
     const body = JSON.stringify(payload);
-    const apiUrl = "https://localhost:44310";
+    const apiUrl = "https://api.timetochange.work";
 
     const response = await fetch(`${apiUrl}/calculation`, {
       method: "POST",
